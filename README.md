@@ -51,3 +51,5 @@ Questo repository configura un ambiente di sviluppo completo in GitHub Codespace
 - Avvia manualmente: `docker compose -f .devcontainer/docker-compose.yml up --build`
 - Arresta: `docker compose -f .devcontainer/docker-compose.yml down`
 - Accesso container: `docker compose -f .devcontainer/docker-compose.yml exec php-app bash`
+- **In caso di NON FUNZIONAMENTO DI PHPMYADMIN, cancellare la cartella mariadb_data/ e riavviate la sessione.
+**
